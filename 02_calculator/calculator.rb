@@ -7,10 +7,10 @@ def subtract(num1, num2)
 end
 
 
-#def sum(array =[])
-#//	sum = 0
-#//	array.each{|x| sum += x}
-#//	sum
-#//end
+def sum(array =[])
+	sum = 0
+	array.each{|x| sum += x}
+	sum
+end
 
 
