@@ -20,4 +20,8 @@ def power(num1, num2)
 	num1 ** num2
 end
 
+def factorial(n)
+	return 0 if n == 0
+	(1..n).inject {|mem, var| mem * var}
+end
 
