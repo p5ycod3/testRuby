@@ -12,7 +12,12 @@ def sum(array =[])
 	sum
 end
 
-def multiply(*fvb args)
+def multiply(*args)
 	args.inject{|mem, var|mem * var}
 end
+
+def power(num1, num2)
+	num1 ** num2
+end
+
 
